@@ -1,5 +1,5 @@
 pipeline {
-  agent 'jenkins-nodejs'
+  agent {'jenkins-nodejs'}
   environment {
     ORG = 'danold'
     APP_NAME = 'test-backend'
